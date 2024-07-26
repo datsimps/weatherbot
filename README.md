@@ -3,6 +3,12 @@
 ## Quick Sidenote:
 I already covered the logic behind the weather aspect of the program, so I will
 not be covering it here. It'll be under the *Weather* section on my github repos.
+This project requires an API key and Guild Id to be set in the environment variables.
+You add the a bot to your discord developer portal then, click on the bot url to add
+the bot to a server. After that you set the variables in this program to your desired
+Guild Id and discord token, you can run the program. Change your User agent in the 
+projram to your information as it is required from the weather API. To execute the 
+program you use "cargo shuttle run" instead of "cargo run".
 
 ## About:
 The idea behind the project is to create a discord bot to get weather updates. This
